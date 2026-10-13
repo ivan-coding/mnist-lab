@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Datasets (downloaded automatically, never committed)
+data/
+
+# Training outputs and model weights
+runs/
+*.pt
+*.pth
+*.npz
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
